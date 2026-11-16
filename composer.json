@@ -1,0 +1,27 @@
+{
+  "name": "starbug/doctrine",
+  "type": "library",
+  "description": "Doctrine based implementations of database module interfaces.",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Ali Gangji",
+      "homepage": "https://github.com/cogentParadigm"
+    }
+  ],
+  "extra": {
+    "starbug": {
+      "type": "module",
+      "namespace": "Starbug\\Doctrine"
+    }
+  },
+  "require": {
+    "starbug/db": "^0.12",
+    "doctrine/dbal": "^2.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Starbug\\Doctrine\\": "src/"
+    }
+  }
+}
